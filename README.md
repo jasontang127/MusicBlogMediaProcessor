@@ -1,8 +1,7 @@
 ## MusicBlogMediaProcessor
 
 ---
-
-This project works with folders to filter out non-audio files, and writes audio files' information to an output text file. Primarily intended for use with this classical music blog: https://www.classicalmusic-notes.com.
+This project automates the media file processing of a music blog site: https://www.classicalmusic-notes.com.
 
 ### Software Used
 * Python
@@ -54,4 +53,5 @@ For example:
 ```python
 python mediaProcessor.py ./input-file.json
 ```
+* The processed files will be written to an output text file in the same location as the program
 
